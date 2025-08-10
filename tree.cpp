@@ -24,7 +24,7 @@ public:
 // 二叉树的迭代遍历
 
 // 前序遍历
-class Solution {
+class Solution0 {
 public:
     vector<int> preorderTraversal(TreeNode* root){
         vector<int> result;

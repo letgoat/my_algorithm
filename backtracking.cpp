@@ -90,7 +90,7 @@ private:
 
 
 // 216.组合总和|||
-class Solution1{
+class Solution2 {
 public:
     vector<vector<int>> combinationSum3(int k, int n){
         result.clear();
@@ -122,7 +122,7 @@ private:
 
 // 17.电话号码的字母组合
 // 注意这题回溯树的宽度和深度，和一般概念是反的，容易出错
-class Solution2{
+class Solution3 {
 public:
     vector<string> letterCombinations(string digits){
         result.clear();

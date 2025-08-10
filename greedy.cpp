@@ -9,7 +9,7 @@ using namespace std;
 
 // 435. 无重叠区间
 
-class Solution {
+class Solution0 {
 public:
     static bool cmp(const vector<int>& a, const vector<int>& b){
         return a[0] < b[0];
@@ -35,7 +35,7 @@ public:
 
 
 // 763.划分字母区间
-class Solution2{
+class Solution1 {
 public:
     vector<int> partitionLabels(string s){
         vector<int> result;
@@ -61,7 +61,7 @@ public:
 
 
 // 56.合并区间
-class Solution3{
+class Solution2 {
 public:
     static bool cmp(const vector<int>& a, const vector<int>& b){
         return a[0] < b[0];

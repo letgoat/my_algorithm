@@ -11,7 +11,7 @@ using namespace std;
 
 
 // 3.无重复字符的最长子串
-class Solution {
+class Solution0 {
 public:
     int lengthOfLongestSubstring(string s) {
         if(s.size() <= 1) return s.size();
