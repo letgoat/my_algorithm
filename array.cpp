@@ -59,24 +59,6 @@ public:
 };
 
 // 26. 删除有序数组中的重复项
-<<<<<<< Updated upstream
-
-
-
-
-
-
-// 80. 删除有序数组中的重复项 ||
-class Solution3 {
-public:
-    int removeDuplicates(vector<int>&  nums){
-        
-
-        return nums.size();
-    }
-
-}
-=======
 class Solution2 {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -104,4 +86,3 @@ public:
 
     }
 };
->>>>>>> Stashed changes
