@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <map>
 
 using namespace std;
 
@@ -58,6 +59,7 @@ public:
 };
 
 // 26. 删除有序数组中的重复项
+<<<<<<< Updated upstream
 
 
 
@@ -74,3 +76,32 @@ public:
     }
 
 }
+=======
+class Solution2 {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int k = 0;
+        map<int, bool> flag;
+        vector<int> temp;
+        temp.reserve(nums.size());
+        for(auto it: nums){
+            if(flag[it] == false){
+                k++;
+                temp.emplace_back(it);
+                flag[it] = true;
+            }
+        }
+        temp.swap(nums);
+        return k;
+    }
+};
+
+
+// 80. 删除有序数组中的重复项||
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums){
+
+    }
+};
+>>>>>>> Stashed changes
